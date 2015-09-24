@@ -1,3 +1,3 @@
-## Zaliczenie, Włodek Bzyl
+## Egzamin, Włodek Bzyl
 
 TODO
