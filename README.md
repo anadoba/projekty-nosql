@@ -15,5 +15,6 @@ Informacje o komputerze na którym były wykonywane obliczenia:
 * ile pamięci RAM, jaki dysk (HD, SSD)
 * jaki system operacyjny + wersja,
  32-bit czy 64-bit
+* wersje użytych baz danych, wersje bibliotek (o ile byłyyte jakieś biblioteki)
 
 Dane najlepiej przedstawić w formie tabelki.
