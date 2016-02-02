@@ -1,6 +1,6 @@
 ## Włodek Bzyl, matwb@ug.edu.pl
 
-Rozwiązania zadań z przedmiotu *Bazy NoSQL*:
+Rozwiązania zadań z przedmiotu *Technologie NoSQL*:
 
 1. [Zaliczenie](zaliczenie.md):
   - [ ] EDA
