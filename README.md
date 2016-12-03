@@ -1,19 +1,17 @@
-## Włodek Bzyl, matwb@ug.edu.pl
+## Włodek Bzyl, matwb@ug.edu.pl [wpisać swoje dane]
 
-Rozwiązania zadań z przedmiotu *Technologie NoSQL*:
+TODO:
 
-1. [Zaliczenie](zaliczenie.md):
-  - [ ] EDA
-1. [Egzamin](egzamin.md)
-  - [ ] Aggregation Pipeline
-  - [ ] MapReduce
+- [ ] EDA
+- [ ] Aggregation Pipeline
+- [ ] MapReduce
 
-Informacje o komputerze na którym były wykonywane obliczenia:
+**Uwaga:**
+W dokumentacji należy wpisać
+([w tabeli]https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables)
+informacje o komputerze na którym były wykonywane obliczenia:
 
 * jaki procesor
 * ile pamięci RAM, jaki dysk (HD, SSD)
-* jaki system operacyjny + wersja,
- 32-bit czy 64-bit
-* wersje użytych baz danych, wersje bibliotek (o ile byłyyte jakieś biblioteki)
-
-Dane najlepiej przedstawić w formie tabelki.
+* jaki system operacyjny + wersja, 32-bit czy 64-bit
+* wersje użytych baz danych, wersje bibliotek (o ile były użyte jakieś biblioteki)

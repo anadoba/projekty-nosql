@@ -1,3 +1,0 @@
-## Egzamin, Włodek Bzyl
-
-TODO

@@ -1,3 +1,0 @@
-## Zaliczenie, Włodek Bzyl
-
-TODO
