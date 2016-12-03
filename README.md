@@ -7,8 +7,8 @@ TODO:
 - [ ] MapReduce
 
 **Uwaga:**
-W dokumentacji należy wpisać
-([w tabeli]https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables)
+W dokumentacji należy wpisać,
+[w tabeli](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables),
 informacje o komputerze na którym były wykonywane obliczenia:
 
 * jaki procesor
