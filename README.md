@@ -1,14 +1,17 @@
-## Włodek Bzyl, matwb@ug.edu.pl [wpisać swoje dane]
+## Imię Nazwisko (zaliczenie) lub Nazwa zespołu (egzamin)
 
-TODO:
+(zaliczenie)
 
 - [ ] EDA
 - [ ] Aggregation Pipeline
+
+(egzamin)
+
 - [ ] MapReduce
 
 **Uwaga:**
-W dokumentacji należy wpisać,
-[w tabeli](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables),
+W pliku z projektem należy wpisać,
+[w tabelce](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables),
 informacje o komputerze na którym były wykonywane obliczenia:
 
 * jaki procesor
