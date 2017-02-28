@@ -1,20 +1,23 @@
-## Imię Nazwisko (zaliczenie) lub Nazwa zespołu (egzamin)
+## Adam Nadoba
+
+Projekty wykonane w ramach zajęć **Technologie NoSQL**
+
+Wybrany zbiór danych - [TODO]()
 
 (zaliczenie)
-
 - [ ] EDA
 - [ ] Aggregation Pipeline
 
 (egzamin)
-
 - [ ] MapReduce
 
-**Uwaga:**
-W pliku z projektem należy wpisać,
-[w tabelce](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables),
-informacje o komputerze na którym były wykonywane obliczenia:
+###Informacje o komputerze na którym były wykonywane obliczenia:
 
-* jaki procesor
-* ile pamięci RAM, jaki dysk (HD, SSD)
-* jaki system operacyjny + wersja, 32-bit czy 64-bit
-* wersje użytych baz danych, wersje bibliotek (o ile były użyte jakieś biblioteki)
+| Nazwa                 | Wartosć    |
+|-----------------------|------------|
+| System operacyjny     | TODO |
+| Procesor              | TODO |
+| Ilość rdzeni          | TODO |
+| Pamięć                | TODO |
+| Dysk                  | TODO |
+| Baza danych           | TODO |
