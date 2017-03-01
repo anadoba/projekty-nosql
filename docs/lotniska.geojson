@@ -1,543 +1,2725 @@
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-
-
-
-  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-d311c4a37b4a480a760dda55c72eb656b70f39154f15e1b7a7f6506e143d7ec0.css" media="all" rel="stylesheet" />
-  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-e61123ffa30f32f2e6c8d5b380149e4f71bb81319043e1d1f700fed50d7e536b.css" media="all" rel="stylesheet" />
-  
-  
-  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/site-7b63da03f09e96bbc0cc73ccdc359a70e6e50464763a01e9dad2be433480d7ac.css" media="all" rel="stylesheet" />
-  
-
-  <meta name="viewport" content="width=device-width">
-  
-  <title>nosql/lotniska.geojson at master · egzamin/nosql · GitHub</title>
-  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
-  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
-  <meta property="fb:app_id" content="1401488693436528">
-
-
-  <link rel="assets" href="https://assets-cdn.github.com/">
-  
-  <meta name="pjax-timeout" content="1000">
-  
-  <meta name="request-id" content="C8DD:61FD:868AAFB:DA114DF:58AD9781" data-pjax-transient>
-  
-
-  <meta name="selected-link" value="repo_source" data-pjax-transient>
-
-  <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
-<meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
-    <meta name="google-analytics" content="UA-3769691-2">
-
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="C8DD:61FD:868AAFB:DA114DF:58AD9781" name="octolytics-dimension-request_id" />
-<meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
-
-
-
-  <meta class="js-ga-set" name="dimension1" content="Logged Out">
-
-
-
-      <meta name="hostname" content="github.com">
-  <meta name="user-login" content="">
-
-      <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="ZTA2N2M4MjhiNmJjMjlkN2E2NjE0OGVlZGRmNGYwNzEzY2NmNDUxMGNkYjg5MTFiYTQxZWFlZjI5OWU5NzEyNnx7InJlbW90ZV9hZGRyZXNzIjoiMTUzLjE5LjQuNjUiLCJyZXF1ZXN0X2lkIjoiQzhERDo2MUZEOjg2OEFBRkI6REExMTRERjo1OEFEOTc4MSIsInRpbWVzdGFtcCI6MTQ4Nzc3MTUyMiwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
-
-
-  <meta name="html-safe-nonce" content="5f926381421833e08c58b83522a06a01d4f2f80a">
-
-  <meta http-equiv="x-pjax-version" content="7f36e6b92e8e0a18f0907c58ebdca77e">
-  
-
-    
-  <meta name="description" content="nosql - Technologie NoSQL, r. akad. 2016/17">
-  <meta name="go-import" content="github.com/egzamin/nosql git https://github.com/egzamin/nosql.git">
-
-  <meta content="712720" name="octolytics-dimension-user_id" /><meta content="egzamin" name="octolytics-dimension-user_login" /><meta content="42740241" name="octolytics-dimension-repository_id" /><meta content="egzamin/nosql" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="42740241" name="octolytics-dimension-repository_network_root_id" /><meta content="egzamin/nosql" name="octolytics-dimension-repository_network_root_nwo" />
-  <link href="https://github.com/egzamin/nosql/commits/master.atom" rel="alternate" title="Recent Commits to nosql:master" type="application/atom+xml">
-
-
-    <link rel="canonical" href="https://github.com/egzamin/nosql/blob/master/data/lotniska.geojson" data-pjax-transient>
-
-
-  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
-
-  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
-
-  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
-  <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
-
-<meta name="theme-color" content="#1e2327">
-
-
-
-  </head>
-
-  <body class="logged-out env-production vis-public page-blob">
-    
-
-  <div class="position-relative js-header-wrapper ">
-    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
-    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
-
-    
-    
-    
-
-
-
-          <header class="site-header js-details-container Details" role="banner">
-  <div class="container-responsive">
-    <a class="header-logo-invertocat" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
-      <svg aria-hidden="true" class="octicon octicon-mark-github" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
-    </a>
-
-    <button class="btn-link float-right site-header-toggle js-details-target" type="button" aria-label="Toggle navigation">
-      <svg aria-hidden="true" class="octicon octicon-three-bars" height="24" version="1.1" viewBox="0 0 12 16" width="18"><path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"/></svg>
-    </button>
-
-    <div class="site-header-menu">
-      <nav class="site-header-nav">
-        <a href="/personal" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:personal" data-selected-links="/personal /personal">
-          Personal
-</a>        <a href="/open-source" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:opensource" data-selected-links="/open-source /open-source/stories /open-source">
-          Open source
-</a>        <a href="/business" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/partners /business/features /business/customers /business/why-github-for-work /business/security /business">
-          Business
-</a>        <a href="/explore" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship /showcases /explore">
-          Explore
-</a>        <a href="/pricing" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing">
-          Pricing
-</a>      </nav>
-
-      <div class="site-header-actions">
-          <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
-  <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/egzamin/nosql/search" class="js-site-search-form" data-scoped-search-url="/egzamin/nosql/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
-    <label class="form-control header-search-wrapper js-chromeless-input-container">
-      <div class="header-search-scope">This repository</div>
-      <input type="text"
-        class="form-control header-search-input js-site-search-focus js-site-search-field is-clearable"
-        data-hotkey="s"
-        name="q"
-        placeholder="Search"
-        aria-label="Search this repository"
-        data-unscoped-placeholder="Search GitHub"
-        data-scoped-placeholder="Search"
-        autocapitalize="off">
-    </label>
-</form></div>
-
-
-          <a class="text-bold" href="/login?return_to=%2Fegzamin%2Fnosql%2Fblob%2Fmaster%2Fdata%2Flotniska.geojson" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
-            <span class="text-gray">or</span>
-            <a class="text-bold" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
-      </div>
-    </div>
-  </div>
-</header>
-
-
-  </div>
-
-  <div id="start-of-content" class="accessibility-aid"></div>
-
-    <div id="js-flash-container">
-</div>
-
-
-
-  <div role="main">
-      <div itemscope itemtype="http://schema.org/SoftwareSourceCode">
-    <div id="js-repo-pjax-container" data-pjax-container>
-      
-
-
-
-<div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav">
-  <div class="container repohead-details-container">
-
-    
-
-<ul class="pagehead-actions">
-
-  <li>
-      <a href="/login?return_to=%2Fegzamin%2Fnosql"
-    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
-    aria-label="You must be signed in to watch a repository" rel="nofollow">
-    <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
-    Watch
-  </a>
-  <a class="social-count" href="/egzamin/nosql/watchers"
-     aria-label="1 user is watching this repository">
-    1
-  </a>
-
-  </li>
-
-  <li>
-      <a href="/login?return_to=%2Fegzamin%2Fnosql"
-    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
-    aria-label="You must be signed in to star a repository" rel="nofollow">
-    <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
-    Star
-  </a>
-
-    <a class="social-count js-social-count" href="/egzamin/nosql/stargazers"
-      aria-label="1 user starred this repository">
-      1
-    </a>
-
-  </li>
-
-  <li>
-      <a href="/login?return_to=%2Fegzamin%2Fnosql"
-        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
-        aria-label="You must be signed in to fork a repository" rel="nofollow">
-        <svg aria-hidden="true" class="octicon octicon-repo-forked" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
-        Fork
-      </a>
-
-    <a href="/egzamin/nosql/network" class="social-count"
-       aria-label="38 users forked this repository">
-      38
-    </a>
-  </li>
-</ul>
-
-    <h1 class="public ">
-  <svg aria-hidden="true" class="octicon octicon-repo" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
-  <span class="author" itemprop="author"><a href="/egzamin" class="url fn" rel="author">egzamin</a></span><!--
---><span class="path-divider">/</span><!--
---><strong itemprop="name"><a href="/egzamin/nosql" data-pjax="#js-repo-pjax-container">nosql</a></strong>
-
-</h1>
-
-  </div>
-  <div class="container">
-    
-<nav class="reponav js-repo-nav js-sidenav-container-pjax"
-     itemscope
-     itemtype="http://schema.org/BreadcrumbList"
-     role="navigation"
-     data-pjax="#js-repo-pjax-container">
-
-  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-    <a href="/egzamin/nosql" class="js-selected-navigation-item selected reponav-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /egzamin/nosql" itemprop="url">
-      <svg aria-hidden="true" class="octicon octicon-code" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
-      <span itemprop="name">Code</span>
-      <meta itemprop="position" content="1">
-</a>  </span>
-
-    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-      <a href="/egzamin/nosql/issues" class="js-selected-navigation-item reponav-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /egzamin/nosql/issues" itemprop="url">
-        <svg aria-hidden="true" class="octicon octicon-issue-opened" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
-        <span itemprop="name">Issues</span>
-        <span class="counter">0</span>
-        <meta itemprop="position" content="2">
-</a>    </span>
-
-  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-    <a href="/egzamin/nosql/pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /egzamin/nosql/pulls" itemprop="url">
-      <svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
-      <span itemprop="name">Pull requests</span>
-      <span class="counter">1</span>
-      <meta itemprop="position" content="3">
-</a>  </span>
-
-  <a href="/egzamin/nosql/projects" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /egzamin/nosql/projects">
-    <svg aria-hidden="true" class="octicon octicon-project" height="16" version="1.1" viewBox="0 0 15 16" width="15"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
-    Projects
-    <span class="counter">1</span>
-</a>
-
-
-  <a href="/egzamin/nosql/pulse" class="js-selected-navigation-item reponav-item" data-selected-links="pulse /egzamin/nosql/pulse">
-    <svg aria-hidden="true" class="octicon octicon-pulse" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M11.5 8L8.8 5.4 6.6 8.5 5.5 1.6 2.38 8H0v2h3.6l.9-1.8.9 5.4L9 8.5l1.6 1.5H14V8z"/></svg>
-    Pulse
-</a>
-  <a href="/egzamin/nosql/graphs" class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors /egzamin/nosql/graphs">
-    <svg aria-hidden="true" class="octicon octicon-graph" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
-    Graphs
-</a>
-
-</nav>
-
-  </div>
-</div>
-
-<div class="container new-discussion-timeline experiment-repo-nav">
-  <div class="repository-content">
-
-    
-
-<a href="/egzamin/nosql/blob/7af988238d0e5538cda76fa75d6f6c000d587bb0/data/lotniska.geojson" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
-
-<!-- blob contrib key: blob_contributors:v21:8d3a5bf7b0f8603469f4c18fe1833455 -->
-
-<div class="file-navigation js-zeroclipboard-container">
-  
-<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
-  <button class="btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
-    
-    type="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
-    <i>Branch:</i>
-    <span class="js-select-button css-truncate-target">master</span>
-  </button>
-
-  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
-
-    <div class="select-menu-modal">
-      <div class="select-menu-header">
-        <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
-        <span class="select-menu-title">Switch branches/tags</span>
-      </div>
-
-      <div class="select-menu-filters">
-        <div class="select-menu-text-filter">
-          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
-        </div>
-        <div class="select-menu-tabs">
-          <ul>
-            <li class="select-menu-tab">
-              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
-            </li>
-            <li class="select-menu-tab">
-              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
-
-        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
-
-
-            <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/egzamin/nosql/blob/master/data/lotniska.geojson"
-               data-name="master"
-               data-skip-pjax="true"
-               rel="nofollow">
-              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
-              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
-                master
-              </span>
-            </a>
-        </div>
-
-          <div class="select-menu-no-results">Nothing to show</div>
-      </div>
-
-      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
-        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
-
-
-        </div>
-
-        <div class="select-menu-no-results">Nothing to show</div>
-      </div>
-
-    </div>
-  </div>
-</div>
-
-  <div class="BtnGroup float-right">
-    <a href="/egzamin/nosql/find/master"
-          class="js-pjax-capture-input btn btn-sm BtnGroup-item"
-          data-pjax
-          data-hotkey="t">
-      Find file
-    </a>
-    <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm BtnGroup-item tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
-  </div>
-  <div class="breadcrumb js-zeroclipboard-target">
-    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/egzamin/nosql"><span>nosql</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/egzamin/nosql/tree/master/data"><span>data</span></a></span><span class="separator">/</span><strong class="final-path">lotniska.geojson</strong>
-  </div>
-</div>
-
-
-  <div class="commit-tease">
-      <span class="float-right">
-        <a class="commit-tease-sha" href="/egzamin/nosql/commit/17f3f78a8b69304e8c0a64041f52cf34301f62a0" data-pjax>
-          17f3f78
-        </a>
-        <relative-time datetime="2017-02-20T12:22:35Z">Feb 20, 2017</relative-time>
-      </span>
-      <div>
-        <img alt="@wbzyl" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/8049?v=3&amp;s=40" width="20" />
-        <a href="/wbzyl" class="user-mention" rel="contributor">wbzyl</a>
-          <a href="/egzamin/nosql/commit/17f3f78a8b69304e8c0a64041f52cf34301f62a0" class="message" data-pjax="true" title="add lotniska.geojson">add lotniska.geojson</a>
-      </div>
-
-    <div class="commit-tease-contributors">
-      <button type="button" class="btn-link muted-link contributors-toggle" data-facebox="#blob_contributors_box">
-        <strong>1</strong>
-         contributor
-      </button>
-      
-    </div>
-
-    <div id="blob_contributors_box" style="display:none">
-      <h2 class="facebox-header" data-facebox-id="facebox-header">Users who have contributed to this file</h2>
-      <ul class="facebox-user-list" data-facebox-id="facebox-description">
-          <li class="facebox-user-list-item">
-            <img alt="@wbzyl" height="24" src="https://avatars0.githubusercontent.com/u/8049?v=3&amp;s=48" width="24" />
-            <a href="/wbzyl">wbzyl</a>
-          </li>
-      </ul>
-    </div>
-  </div>
-
-
-<div class="file">
-  <div class="file-header">
-  <div class="file-actions">
-      <div class="BtnGroup">
-        <a class="btn btn-sm BtnGroup-item tooltipped tooltipped tooltipped-n source "
-          href="/egzamin/nosql/blob/master/data/lotniska.geojson?short_path=830c47c" aria-label="Display the source blob">
-          <svg aria-hidden="true" class="octicon octicon-code" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
-        </a>
-        <a class="btn btn-sm BtnGroup-item tooltipped tooltipped-n rendered selected"
-          href="/egzamin/nosql/blob/master/data/lotniska.geojson" aria-label="Display the rendered blob">
-          <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
-        </a>
-      </div>
-
-    <div class="BtnGroup">
-      <a href="/egzamin/nosql/raw/master/data/lotniska.geojson" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
-        <a href="/egzamin/nosql/blame/master/data/lotniska.geojson" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
-      <a href="/egzamin/nosql/commits/master/data/lotniska.geojson" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
-    </div>
-
-
-        <button type="button" class="btn-octicon disabled tooltipped tooltipped-nw"
-          aria-label="You must be signed in to make or propose changes">
-          <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
-        </button>
-        <button type="button" class="btn-octicon btn-octicon-danger disabled tooltipped tooltipped-nw"
-          aria-label="You must be signed in to make or propose changes">
-          <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
-        </button>
-  </div>
-
-  <div class="file-info">
-      2726 lines (2725 sloc)
-      <span class="file-info-divider"></span>
-    60.1 KB
-  </div>
-</div>
-
-  
-
-  <div itemprop="text" class="blob-wrapper data type-json">
-      
-  <div class="render-wrapper">
-    <div class="render-container is-render-pending js-render-target "
-      data-identity="91313ea8-0fc7-4450-84f4-b85adbdad621"
-      data-host="https://render.githubusercontent.com"
-      data-type="geojson">
-      <img alt="" class="octospinner" height="64" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-128.gif" width="64" />
-      <div class="render-viewer-error">Sorry, something went wrong. <a href="https://github.com/egzamin/nosql/blob/master/data/lotniska.geojson">Reload?</a></div>
-      <div class="render-viewer-fatal">Sorry, we cannot display this file.</div>
-      <div class="render-viewer-invalid">Sorry, this file is invalid so it cannot be displayed.</div>
-      <iframe class="render-viewer" src="https://render.githubusercontent.com/view/geojson?commit=7af988238d0e5538cda76fa75d6f6c000d587bb0&amp;enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f65677a616d696e2f6e6f73716c2f376166393838323338643065353533386364613736666137356436663663303030643538376262302f646174612f6c6f746e69736b612e67656f6a736f6e&amp;nwo=egzamin%2Fnosql&amp;path=data%2Flotniska.geojson&amp;repository_id=42740241#91313ea8-0fc7-4450-84f4-b85adbdad621" sandbox="allow-scripts allow-same-origin allow-top-navigation">Viewer requires iframe.</iframe>
-    </div>
-  </div>
-
-  </div>
-
-</div>
-
-<button type="button" data-facebox="#jump-to-line" data-facebox-class="linejump" data-hotkey="l" class="d-none">Jump to Line</button>
-<div id="jump-to-line" style="display:none">
-  <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="" class="js-jump-to-line-form" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
-    <input class="form-control linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
-    <button type="submit" class="btn">Go</button>
-</form></div>
-
-  </div>
-  <div class="modal-backdrop js-touch-events"></div>
-</div>
-
-
-    </div>
-  </div>
-
-  </div>
-
-      <div class="container site-footer-container">
-  <div class="site-footer" role="contentinfo">
-    <ul class="site-footer-links float-right">
-        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact GitHub</a></li>
-      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
-      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
-      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
-        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
-        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
-
-    </ul>
-
-    <a href="https://github.com" aria-label="Homepage" class="site-footer-mark" title="GitHub">
-      <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
-</a>
-    <ul class="site-footer-links">
-      <li>&copy; 2017 <span title="0.08139s from github-fe-612ff0a.cp1-iad.github.net">GitHub</span>, Inc.</li>
-        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
-        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
-        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
-        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
-        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
-    </ul>
-  </div>
-</div>
-
-
-
-  
-
-  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
-    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
-    <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
-      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
-    </button>
-    You can't perform that action at this time.
-  </div>
-
-
-    <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/compat-8e19569aacd39e737a14c8515582825f3c90d1794c0e5539f9b525b8eb8b5a8e.js"></script>
-    <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-506169cb2fe76254b921e8c944dd406e5cab2d719e657eace8ada98486231472.js"></script>
-    <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-3b052171c6e5761eb1be342ba4009c352a31f17f533c685b357ea935918258ee.js"></script>
-    
-    
-    
-    
-  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
-    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
-    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
-    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
-  </div>
-  <div class="facebox" id="facebox" style="display:none;">
-  <div class="facebox-popup">
-    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
-    </div>
-    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
-      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
-    </button>
-  </div>
-</div>
-
-
-  </body>
-</html>
-
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5142993927002,
+          49.6575012207031
+        ]
+      },
+      "properties": {
+        "title": "Arlamów Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0018997192383,
+          49.8050003051758
+        ]
+      },
+      "properties": {
+        "title": "Bielsko Biala Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9109992980957,
+          52.2685012817383
+        ]
+      },
+      "properties": {
+        "title": "Babice Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9556007385254,
+          53.103099822998
+        ]
+      },
+      "properties": {
+        "title": "Bydgoszcz-Biedaszkowo Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.1706008911,
+          53.101398468
+        ]
+      },
+      "properties": {
+        "title": "Białystok-Krywlany Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.1436004639,
+          52.0057983398
+        ]
+      },
+      "properties": {
+        "title": "Biała Podlaska Airport",
+        "description": "medium_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5242004394531,
+          53.5750007629395
+        ]
+      },
+      "properties": {
+        "title": "Borne Sulinowo Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9776992798,
+          53.0968017578
+        ]
+      },
+      "properties": {
+        "title": "Bydgoszcz Ignacy Jan Paderewski Airport",
+        "description": "medium_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.763299942,
+          54.4160003662
+        ]
+      },
+      "properties": {
+        "title": "Cewice Military Airport",
+        "description": "medium_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.2047004699707,
+          50.8849983215332
+        ]
+      },
+      "properties": {
+        "title": "Częstochowa-Rudniki",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.353099822998,
+          54.4047012329102
+        ]
+      },
+      "properties": {
+        "title": "Darłówek Naval Air Base",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8936004639,
+          51.551399231
+        ]
+      },
+      "properties": {
+        "title": "Deblin Military Air Base",
+        "description": "medium_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7307996749878,
+          53.4777984619141
+        ]
+      },
+      "properties": {
+        "title": "Ziemsko Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.4232997894287,
+          54.1408004760742
+        ]
+      },
+      "properties": {
+        "title": "Elblag Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4661998748779,
+          54.3776016235352
+        ]
+      },
+      "properties": {
+        "title": "Gdańsk Lech Wałęsa Airport",
+        "description": "large_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8491992950439,
+          53.5243988037109
+        ]
+      },
+      "properties": {
+        "title": "Grudziadz Lisie Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6728000641,
+          50.2694015503
+        ]
+      },
+      "properties": {
+        "title": "Gliwice Glider Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2811107635498,
+          52.184440612793
+        ]
+      },
+      "properties": {
+        "title": "Góraszka Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.2858009338379,
+          52.8064002990723
+        ]
+      },
+      "properties": {
+        "title": "Inowroclaw Glider Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3306007385,
+          52.8293991089
+        ]
+      },
+      "properties": {
+        "title": "Inowroclaw Military Air Base",
+        "description": "medium_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8174991607666,
+          49.6577987670898
+        ]
+      },
+      "properties": {
+        "title": "Iwonicz Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6452808380127,
+          54.7102813720703
+        ]
+      },
+      "properties": {
+        "title": "Jastarnia Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7855997085571,
+          50.8988990783691
+        ]
+      },
+      "properties": {
+        "title": "Jelenia Góra Glider Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7597198486328,
+          50.9283294677734
+        ]
+      },
+      "properties": {
+        "title": "Jeżów Sudecki Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.7317008972168,
+          50.8967018127441
+        ]
+      },
+      "properties": {
+        "title": "Kielce Maslow Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1700000762939,
+          52.3199996948242
+        ]
+      },
+      "properties": {
+        "title": "Kazimierz Biskup Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4321994781494,
+          54.0435981750488
+        ]
+      },
+      "properties": {
+        "title": "Kȩtrzyn-Wilamowo Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.7847995758057,
+          50.0777015686035
+        ]
+      },
+      "properties": {
+        "title": "John Paul II International Airport Kraków-Balice Airport",
+        "description": "large_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.034200668335,
+          50.2380981445312
+        ]
+      },
+      "properties": {
+        "title": "Muchowiec Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0848999023438,
+          50.5292015075684
+        ]
+      },
+      "properties": {
+        "title": "Kamien Slaski Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2656002044678,
+          54.0424995422363
+        ]
+      },
+      "properties": {
+        "title": "Koszalin Zegrze Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2017002105713,
+          50.0896987915039
+        ]
+      },
+      "properties": {
+        "title": "Pobiednik Wielki Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7371997833252,
+          49.6810989379883
+        ]
+      },
+      "properties": {
+        "title": "Krosno Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9664001465,
+          52.3316993713
+        ]
+      },
+      "properties": {
+        "title": "Krzesiny Military Air Base",
+        "description": "medium_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0799999237,
+          50.4743003845
+        ]
+      },
+      "properties": {
+        "title": "Katowice International Airport",
+        "description": "large_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0219993591,
+          49.9399986267
+        ]
+      },
+      "properties": {
+        "title": "Bielsko-Bialo Kaniow Airfield",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.6902777778,
+          51.2319444444
+        ]
+      },
+      "properties": {
+        "title": "Lublin Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1781997680664,
+          51.1828002929688
+        ]
+      },
+      "properties": {
+        "title": "Legnica Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1791000366,
+          51.551700592
+        ]
+      },
+      "properties": {
+        "title": "Lask Military Air Base",
+        "description": "medium_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.3980998993,
+          51.7219009399
+        ]
+      },
+      "properties": {
+        "title": "Łódź Władysław Reymont Airport",
+        "description": "medium_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3444404602051,
+          53.6080589294434
+        ]
+      },
+      "properties": {
+        "title": "Łańsk / Gryźliny Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3946990967,
+          51.2219009399
+        ]
+      },
+      "properties": {
+        "title": "Lublin Radwiec Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.521900177002,
+          51.8349990844727
+        ]
+      },
+      "properties": {
+        "title": "Leszno Strzyzewi Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1961994171,
+          51.4230003357
+        ]
+      },
+      "properties": {
+        "title": "Lubin Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1455993652,
+          52.004699707
+        ]
+      },
+      "properties": {
+        "title": "Leczyca Military Air Base",
+        "description": "medium_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1341991425,
+          54.0269012451
+        ]
+      },
+      "properties": {
+        "title": "Malbork Military Air Base",
+        "description": "medium_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0827999115,
+          53.3950996399
+        ]
+      },
+      "properties": {
+        "title": "Miroslawiec Military Air Base",
+        "description": "medium_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5558300018311,
+          53.8077812194824
+        ]
+      },
+      "properties": {
+        "title": "Mikołajki Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4620990753174,
+          50.3222999572754
+        ]
+      },
+      "properties": {
+        "title": "Mielec Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6558990479,
+          52.1954994202
+        ]
+      },
+      "properties": {
+        "title": "Minsk Mazowiecki Military Air Base",
+        "description": "medium_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.6518001556,
+          52.4510993958
+        ]
+      },
+      "properties": {
+        "title": "Modlin Airport",
+        "description": "large_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.770299911499,
+          50.9578018188477
+        ]
+      },
+      "properties": {
+        "title": "Mirosławice Private Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.6236000061,
+          49.7456016541
+        ]
+      },
+      "properties": {
+        "title": "Nowy Sącz-Łososina Dolna Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5349998474121,
+          51.625
+        ]
+      },
+      "properties": {
+        "title": "Nowe Miasto nad Pilica Airfield",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.0503005981,
+          49.4627990723
+        ]
+      },
+      "properties": {
+        "title": "Nowy Targ Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4150009155273,
+          53.7731018066406
+        ]
+      },
+      "properties": {
+        "title": "Olsztyn Dajtki Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.51720047,
+          54.57970047
+        ]
+      },
+      "properties": {
+        "title": "Oksywie Military Air Base",
+        "description": "medium_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8456001282,
+          51.7010993958
+        ]
+      },
+      "properties": {
+        "title": "Ostrów Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7817001343,
+          50.6333007812
+        ]
+      },
+      "properties": {
+        "title": "Opole-Polska Nowa Wieś Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5149993896484,
+          50.5182991027832
+        ]
+      },
+      "properties": {
+        "title": "Pińczów Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7124996185303,
+          53.1699981689453
+        ]
+      },
+      "properties": {
+        "title": "Pila Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0442008972168,
+          52.4338989257812
+        ]
+      },
+      "properties": {
+        "title": "Poznań-Kobylnica Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.721399307251,
+          52.562198638916
+        ]
+      },
+      "properties": {
+        "title": "Plock Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8262996674,
+          52.4210014343
+        ]
+      },
+      "properties": {
+        "title": "Poznań-Ławica Airport",
+        "description": "large_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6716003417969,
+          54.2480010986328
+        ]
+      },
+      "properties": {
+        "title": "Pruszcz Gdanski Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6882991790771,
+          51.3830986022949
+        ]
+      },
+      "properties": {
+        "title": "Piotrków Trybunalski-Bujny Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8539009094,
+          52.3793983459
+        ]
+      },
+      "properties": {
+        "title": "Powidz Military Air Base",
+        "description": "medium_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.213300705,
+          51.3891983032
+        ]
+      },
+      "properties": {
+        "title": "Radom Military Air Base",
+        "description": "medium_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6282997131348,
+          50.07080078125
+        ]
+      },
+      "properties": {
+        "title": "Rybnik-Gotarowice Glider Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0480995178223,
+          50.1053009033203
+        ]
+      },
+      "properties": {
+        "title": "Rzeszów Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1100006103516,
+          51.4789009094238
+        ]
+      },
+      "properties": {
+        "title": "Radom-Piastrów Glider Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0189990997,
+          50.1100006104
+        ]
+      },
+      "properties": {
+        "title": "Rzeszów-Jasionka Airport",
+        "description": "medium_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.9021997452,
+          53.5847015381
+        ]
+      },
+      "properties": {
+        "title": "Szczecin-Goleniów \"Solidarność\" Airport",
+        "description": "medium_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6337995529175,
+          53.3921012878418
+        ]
+      },
+      "properties": {
+        "title": "Szczecin-Dąbie Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1075000762939,
+          54.4789009094238
+        ]
+      },
+      "properties": {
+        "title": "Redzikowo Air Base",
+        "description": "closed",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8262996674,
+          53.790599823
+        ]
+      },
+      "properties": {
+        "title": "Swidwin Military Air Base",
+        "description": "medium_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2928009033203,
+          52.198600769043
+        ]
+      },
+      "properties": {
+        "title": "Sochaczew Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0956001281738,
+          54.4082984924316
+        ]
+      },
+      "properties": {
+        "title": "Słupsk-Krȩpa Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9983005523682,
+          50.627498626709
+        ]
+      },
+      "properties": {
+        "title": "Stalowa Wola-Turbia Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8992004394531,
+          54.0727996826172
+        ]
+      },
+      "properties": {
+        "title": "Suwałki Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.690299987793,
+          51.2318992614746
+        ]
+      },
+      "properties": {
+        "title": "Świdnik Lotnisko Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9377002716064,
+          53.4818992614746
+        ]
+      },
+      "properties": {
+        "title": "Szczytno-Szymany International Airport",
+        "description": "closed",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.0977993011,
+          51.584400177
+        ]
+      },
+      "properties": {
+        "title": "Tomaszow Mazowiecki Military Air Base",
+        "description": "medium_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5459003448486,
+          53.0292015075684
+        ]
+      },
+      "properties": {
+        "title": "Torun Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9671001434,
+          52.1656990051
+        ]
+      },
+      "properties": {
+        "title": "Warsaw Chopin Airport",
+        "description": "large_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0156002044678,
+          52.5847015380859
+        ]
+      },
+      "properties": {
+        "title": "Włocławek-Kruszyn Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.885799408,
+          51.1026992798
+        ]
+      },
+      "properties": {
+        "title": "Copernicus Wrocław Airport",
+        "description": "large_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9986000061035,
+          51.2061004638672
+        ]
+      },
+      "properties": {
+        "title": "Wrocław-Szymanów Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.2043991088867,
+          50.7016983032227
+        ]
+      },
+      "properties": {
+        "title": "Zamość-Mokre Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7986001968,
+          52.1385002136
+        ]
+      },
+      "properties": {
+        "title": "Zielona Góra-Babimost Airport",
+        "description": "medium_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4083003997803,
+          51.627498626709
+        ]
+      },
+      "properties": {
+        "title": "Tomaszowo Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4638996124268,
+          51.9789009094238
+        ]
+      },
+      "properties": {
+        "title": "Zielona Góra-Przylep Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.2180995941162,
+          49.7710990905762
+        ]
+      },
+      "properties": {
+        "title": "Żar Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.713611,
+          51.240278
+        ]
+      },
+      "properties": {
+        "title": "Lublin Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2187995911,
+          52.5344009399
+        ]
+      },
+      "properties": {
+        "title": "Bednary Airfield",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6869440078735,
+          54.2007217407227
+        ]
+      },
+      "properties": {
+        "title": "Kołobrzeg-Bagicz",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2901935577393,
+          53.7610816955566
+        ]
+      },
+      "properties": {
+        "title": "Płoty  (Maków)",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.942777633667,
+          53.9519424438477
+        ]
+      },
+      "properties": {
+        "title": "Borsk Air Base",
+        "description": "closed",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2841663360596,
+          53.5194435119629
+        ]
+      },
+      "properties": {
+        "title": "Broczyno Air Base",
+        "description": "closed",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.413610458374,
+          50.8369445800781
+        ]
+      },
+      "properties": {
+        "title": "Brzeg-Skarbimierz Air Base",
+        "description": "closed",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.421667098999,
+          52.9394454956055
+        ]
+      },
+      "properties": {
+        "title": "Chojna Air Base",
+        "description": "closed",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.8730564117432,
+          52.5758323669434
+        ]
+      },
+      "properties": {
+        "title": "Chrcynno Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1016674041748,
+          51.6191673278809
+        ]
+      },
+      "properties": {
+        "title": "Dęblin-Ułęż Air Base",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2591667175293,
+          53.5244445800781
+        ]
+      },
+      "properties": {
+        "title": "Debrzno Air Base",
+        "description": "closed",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6025009155273,
+          54.396110534668
+        ]
+      },
+      "properties": {
+        "title": "Gdańsk-Wrzeszcz Air Base",
+        "description": "closed",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.976110458374,
+          51.8872222900391
+        ]
+      },
+      "properties": {
+        "title": "Gostyń-Gola Air Base",
+        "description": "closed",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2936000823975,
+          52.7877998352051
+        ]
+      },
+      "properties": {
+        "title": "Gorzów-Wojcieszyce Airport (under construction)",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9843997955322,
+          53.812198638916
+        ]
+      },
+      "properties": {
+        "title": "Brzezie Highway Strip",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2733001708984,
+          51.6568984985352
+        ]
+      },
+      "properties": {
+        "title": "Chociw  (Kanice) Highway Strip",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.261100769043,
+          53.5705986022949
+        ]
+      },
+      "properties": {
+        "title": "Debrzno  (Słupia) Highway Strip",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2119007110596,
+          54.3683013916016
+        ]
+      },
+      "properties": {
+        "title": "Dębnica Kaszubska Highway Strip",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4430999755859,
+          54.6046981811523
+        ]
+      },
+      "properties": {
+        "title": "Gdynia  (Rumia) Highway Strip",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5969009399414,
+          52.2322006225586
+        ]
+      },
+      "properties": {
+        "title": "Granowo Highway Strip",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5063991546631,
+          54.5250015258789
+        ]
+      },
+      "properties": {
+        "title": "Jarosławiec Highway Strip",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.8042001724243,
+          53.426700592041
+        ]
+      },
+      "properties": {
+        "title": "Kliniska  (Szczecin) Highway Strip",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0105991363525,
+          53.3114013671875
+        ]
+      },
+      "properties": {
+        "title": "Koronowo Highway Strip",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6238994598389,
+          51.814998626709
+        ]
+      },
+      "properties": {
+        "title": "Leszno  (Rydzyna) Highway Strip",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.9053001403809,
+          54.0452995300293
+        ]
+      },
+      "properties": {
+        "title": "Łukęcin  (Pobierowo) Highway Strip",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3714008331299,
+          53.4583015441895
+        ]
+      },
+      "properties": {
+        "title": "Machliny Highway Strip",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5116996765137,
+          52.750301361084
+        ]
+      },
+      "properties": {
+        "title": "Mieszkowice Highway Strip",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1569004058838,
+          53.386100769043
+        ]
+      },
+      "properties": {
+        "title": "Mirosławiec  (Nowe Laski) Highway Strip",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5372009277344,
+          54.0691986083984
+        ]
+      },
+      "properties": {
+        "title": "Mostowo Highway Strip",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4505996704102,
+          53.6082992553711
+        ]
+      },
+      "properties": {
+        "title": "Osie  (Lipinki) Highway Strip",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.013599395752,
+          50.948299407959
+        ]
+      },
+      "properties": {
+        "title": "Ostrowy  (Łobodno) Highway Strip",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7182998657227,
+          51.7038993835449
+        ]
+      },
+      "properties": {
+        "title": "Rossoszyca  (Warta) Highway Strip",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6686000823975,
+          51.1627998352051
+        ]
+      },
+      "properties": {
+        "title": "Środa Śląska  (Komorniki) Highway Strip",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.7919006347656,
+          53.36669921875
+        ]
+      },
+      "properties": {
+        "title": "Wielbark Highway Strip",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.6224994659424,
+          52.3011016845703
+        ]
+      },
+      "properties": {
+        "title": "Września Highway Strip",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.2700004577637,
+          51.790599822998
+        ]
+      },
+      "properties": {
+        "title": "Aleksandrów Łódzki Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.2283306121826,
+          53.4047203063965
+        ]
+      },
+      "properties": {
+        "title": "Białousy Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4099998474121,
+          49.5202789306641
+        ]
+      },
+      "properties": {
+        "title": "Bezmiechowa Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9327802658081,
+          51.2033309936523
+        ]
+      },
+      "properties": {
+        "title": "Brochocin Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7916698455811,
+          51.5516700744629
+        ]
+      },
+      "properties": {
+        "title": "Chojne Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6202802658081,
+          53.9436111450195
+        ]
+      },
+      "properties": {
+        "title": "Dębica Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1980590820312,
+          51.6272201538086
+        ]
+      },
+      "properties": {
+        "title": "Dęblin-Podlodów Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8675003051758,
+          51.5944404602051
+        ]
+      },
+      "properties": {
+        "title": "Dębno Polskie Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4930992126465,
+          51.7991981506348
+        ]
+      },
+      "properties": {
+        "title": "Goszczanów Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7138900756836,
+          53.3113899230957
+        ]
+      },
+      "properties": {
+        "title": "Jaworze Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.0124228001,
+          50.0607101557
+        ]
+      },
+      "properties": {
+        "title": "Kraków-Łęg Airport",
+        "description": "heliport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5391693115234,
+          52.4736099243164
+        ]
+      },
+      "properties": {
+        "title": "Kroczewo Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.7005596160889,
+          52.0538902282715
+        ]
+      },
+      "properties": {
+        "title": "Krzewica Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9833335876465,
+          51.966667175293
+        ]
+      },
+      "properties": {
+        "title": "Łagowo Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1988906860352,
+          52.2169418334961
+        ]
+      },
+      "properties": {
+        "title": "Międzylesie Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4566707611084,
+          53.4700012207031
+        ]
+      },
+      "properties": {
+        "title": "Nadarzyce Poligon Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5936107635498,
+          51.0641708374023
+        ]
+      },
+      "properties": {
+        "title": "Namysłów Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2474994659,
+          50.9786109924
+        ]
+      },
+      "properties": {
+        "title": "Oława-Stanowice Field (closed)",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3556003570557,
+          51.5671997070312
+        ]
+      },
+      "properties": {
+        "title": "Orsk Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9383296966553,
+          53.0050010681152
+        ]
+      },
+      "properties": {
+        "title": "Przasnysz Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9972190856934,
+          52.211109161377
+        ]
+      },
+      "properties": {
+        "title": "Radzewice Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.6286106109619,
+          51.7541694641113
+        ]
+      },
+      "properties": {
+        "title": "Radzyń Podlaski-Marynin Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9097194671631,
+          53.7097206115723
+        ]
+      },
+      "properties": {
+        "title": "Rostki Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3066692352295,
+          54.2449989318848
+        ]
+      },
+      "properties": {
+        "title": "Skibno Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1202793121338,
+          49.2750015258789
+        ]
+      },
+      "properties": {
+        "title": "Smolnik Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2150001525879,
+          53.6116714477539
+        ]
+      },
+      "properties": {
+        "title": "Stare Drawsko Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.413330078125,
+          53.2966690063477
+        ]
+      },
+      "properties": {
+        "title": "Watorowo Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.2000007629395,
+          54.5911102294922
+        ]
+      },
+      "properties": {
+        "title": "Wejherowo Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3199996948242,
+          49.4466705322266
+        ]
+      },
+      "properties": {
+        "title": "Weremień Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2477798461914,
+          51.8352813720703
+        ]
+      },
+      "properties": {
+        "title": "Wschowa-Łysiny Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5263900756836,
+          52.9313888549805
+        ]
+      },
+      "properties": {
+        "title": "Wysokie Mazowieckie Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1283330917358,
+          51.2033348083496
+        ]
+      },
+      "properties": {
+        "title": "Zgorzelec-Żarska Wieś Airport",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7250003814697,
+          51.310001373291
+        ]
+      },
+      "properties": {
+        "title": "Krzywa Air Base",
+        "description": "closed",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1049995422363,
+          51.4599990844727
+        ]
+      },
+      "properties": {
+        "title": "Gozdnica Airfield",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3199996948,
+          50.8829994202
+        ]
+      },
+      "properties": {
+        "title": "Swiebodzice Airfield",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5900001525879,
+          51.560001373291
+        ]
+      },
+      "properties": {
+        "title": "Szprotawa-Wiechlice Air Base",
+        "description": "closed",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6459999084473,
+          50.3084983825684
+        ]
+      },
+      "properties": {
+        "title": "Bystrzyca Klodzka Airfield",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.4349994659424,
+          51.2150001525879
+        ]
+      },
+      "properties": {
+        "title": "Olesnica Air Base",
+        "description": "closed",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2430000305176,
+          52.2350006103516
+        ]
+      },
+      "properties": {
+        "title": "Kakolewo Air Base",
+        "description": "closed",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7250003814697,
+          52.523998260498
+        ]
+      },
+      "properties": {
+        "title": "Przytoczna Airfield",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0400009155,
+          52.3219985962
+        ]
+      },
+      "properties": {
+        "title": "Zerniki Gadki Airfield",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1870002746582,
+          52.0750007629395
+        ]
+      },
+      "properties": {
+        "title": "Konstancin-Jeziorna Airfield",
+        "description": "small_airport",
+        "marker-size": "medium",
+        "marker-symbol": "airport"
+      }
+    }
+  ]
+}
