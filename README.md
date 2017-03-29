@@ -2,6 +2,7 @@
 
 Zaliczenie zajęć **Technologie NoSQL** odbywa się poprzez ukończenie kursu  
 **[M201: MongoDB Performance](https://university.mongodb.com/courses/M201/about)**  
+([otrzymany certyfikat](http://university.mongodb.com/course_completion/c79ee746de74488e87441820e61e6989))  
 
 **Nabyta wiedza:**  
 - struktura danych Mongo przechowywanych na dysku  
@@ -19,4 +20,5 @@ Zaliczenie zajęć **Technologie NoSQL** odbywa się poprzez ukończenie kursu
 
 **Najciekawsze zagadnienia:**  
 - zasada Equality, Sort, Range dla indeksów  
+- co to 'covered queries' i dlaczego ich używać  
 - wybór właściwego Shard Key  
