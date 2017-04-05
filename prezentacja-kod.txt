@@ -1,0 +1,88 @@
+// tworzenie katalogow dla mongo
+mkdir "/Users/adam/mongo-data"
+mongod --dbpath="/Users/adam/mongo-data" --port 28000
+
+mkdir "/Users/adam/mongo-demo-dl"
+cd "/Users/adam/mongo-demo-dl"
+
+// do pobrania ~ 350 MB
+curl http://carl.cs.indiana.edu/data/websci2014/web-clicks-nov-2009.tgz -o web-traffic.tgz
+tar -xvzf web-traffic.tgz
+mv 2009-11-22.json insert-as-last.json
+
+// wstawianie danych
+cat 2009-*.json | mongoimport --db demo --collection traffic_no_indexes --port 28000
+cat 2009-*.json | mongoimport --db demo --collection traffic_single_index --port 28000
+cat 2009-*.json | mongoimport --db demo --collection traffic_esr --port 28000
+
+mongo demo --port 28000
+// ponizsza konstrukcja
+// .explain("executionStats") - zwraca statystyki wykonywania, a nie dane
+//
+// ciekawostka przyspieszajaca prace na jednej kolekcji:
+// var exp = db.traffic.explain("executionStats")
+// exp.find({"to":"google.com"})
+
+// wykonywanie kwerend
+db.traffic_no_indexes.find({"to":"google.com"}).explain("executionStats")
+db.traffic_single_index.createIndex({"to": 1})
+db.traffic_single_index.find({"to":"google.com"}).explain("executionStats")
+
+db.traffic_single_index.find({"to":"google.com", "timestamp": {$gte: 1257375600, $lt: 1258239600}}).sort({"count": -1}).explain("executionStats")
+db.traffic_esr.createIndex({"to": 1, "count": 1, "timestamp": 1})
+db.traffic_esr.find({"to":"google.com", "timestamp": {$gte: 1257375600, $lt: 1258239600}}).sort({"count": -1}).explain("executionStats")
+
+// covered query
+db.traffic_esr.find({"to":"google.com", "timestamp": {$gte: 1257375600, $lt: 1258239600}}, {"_id": 0, "to": 1, "count": 1, "timestamp": 1}).sort({"count": -1}).explain("executionStats")
+quit()
+
+// jak indeksy spowalniaja wstawianie do bazy
+time mongoimport -d demo -c traffic_no_indexes insert-as-last.json
+time mongoimport -d demo -c traffic_esr insert-as-last.json
+
+//zamknij wszystko
+//sharding
+mkdir "/Users/adam/mongo-data-shard"
+cd "/Users/adam/mongo-data-shard"
+mkdir cfg
+mkdir s0
+mkdir s1
+mkdir s2
+
+// uruchamianie config server
+mongod --configsvr --port 27100 --replSet szard --dbpath "/Users/adam/mongo-data-shard/cfg"
+mongo --port 27100
+rs.initiate(
+  {
+    _id: "szard",
+    configsvr: true,
+    members: [
+      { _id : 0, host : "localhost:27100" }
+    ]
+  }
+)
+
+// uruchamianie shardy
+mongod --shardsvr --port 27020 --dbpath="/Users/adam/mongo-data-shard/s0"
+mongod --shardsvr --port 27021 --dbpath="/Users/adam/mongo-data-shard/s1"
+mongod --shardsvr --port 27022 --dbpath="/Users/adam/mongo-data-shard/s2"
+
+// uruchamiamy mongos - "router" pomiedzy danymi
+mongos --configdb szard/localhost:27100 --port 27101
+
+// podlaczamy sie do mongos i korzystamy jak z "normalnego" mongo
+mongo demo --port 27101
+sh.addShard("localhost:27020")
+sh.addShard("localhost:27021")
+sh.addShard("localhost:27022")
+
+// w tym czasie w oddzielnej karcie terminala wstawiamy dane
+cat 2009-*.json | mongoimport --db demo --collection traffic_shard --port 27101
+
+sh.enableSharding("demo")
+use demo
+db.traffic_shard.createIndex({"to": 1, "count": 1, "timestamp": 1})
+sh.shardCollection("demo.traffic_shard", {"to": 1, "count": 1, "timestamp": 1})
+
+db.traffic_shard.find({"to":"google.com", "timestamp": {$gte: 1257375600, $lt: 1258239600}}).sort({"count": -1}).explain("executionStats")
+db.traffic_shard.find({"to":"google.com", "timestamp": {$gte: 1257375600, $lt: 1258239600}}, {"_id": 0, "to": 1, "count": 1, "timestamp": 1}).sort({"count": -1}).explain("executionStats")
