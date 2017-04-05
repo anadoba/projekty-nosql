@@ -22,3 +22,7 @@ Zaliczenie zajęć **Technologie NoSQL** odbywa się poprzez ukończenie kursu
 - zasada Equality, Sort, Range dla indeksów  
 - co to 'covered queries' i dlaczego ich używać  
 - wybór właściwego Shard Key  
+
+**Prezentacja na zajęciach (5.04.2017):**
+- [komendy na utworzenie kolekcji, shardów wykorzystanych w prezentacji](prezentacja-kod.txt)  
+- [slajdy](MONGO-PERFORMANCE.pdf)
